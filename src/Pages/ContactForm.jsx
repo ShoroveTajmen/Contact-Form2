@@ -58,7 +58,7 @@ const ContactForm = () => {
     console.log(formInfo);
 
     //send newProduct data to the server
-    fetch("http://localhost:5001/contactInfo", {
+    fetch("https://contact-form-server-ivory.vercel.app/contactInfo", {
       method: "POST",
       headers: {
         "content-type": "application/json",
